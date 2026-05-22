@@ -19,16 +19,11 @@ El primero es para compilar y el segundo es para ejecutar las pruebas unitarias.
 Si no les llegan a funcionar, es posible que el problema es que tengan una versión diferente de cabal y de ghc. Si ese es el caso, pueden ejecutar el comando `ghc-pkg list base` para reemplazar la versión base que viene en el archivo .cabal en las líneas 70 y 102.
 
 ## Integrantes
-
-En esta sección deben eliminar esta línea de texto, borrar la leyenda "Integrante n" y escribir su nombre empezando por apellidos y su número de cuenta.
-
-+ Integrante 1
-    - No. de Cuenta: 
-+ Integrante 2
-    - No. de Cuenta: 
-+ Integrante 3
-    - No. de Cuenta: 
++ Vazquez Merino Lenin Quetzal
+    - No. de Cuenta: 425106914 
++ Islas Garcia Fernando
+    - No. de Cuenta: 32229531 
 
 ## Comentarios
 
-Recuerden que opcionalmente pueden agregar un comentario (ver los lineamientos de entrega). Si es el caso, borren esta línea y dejen su comentario.
+Para las dos ultimas funciones use map y concatMap, para ello hice mi propia implementación, además investigue acerca de la funcion return que tiene que ver algo con el cotexto de una monada, se me hizo algo interesenta como funciona, ademas vi que aplicado a contexto de listas, se puede usar para hacer unificaListas o unificaConj haciendo un uso de un do, sin embargo, se me hizo algo compleja de implemetar, pues de Monadas solo conozco Mybe, donde se usa nothing y just, que suele usarse para manejar errores.
